@@ -1,0 +1,120 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      margin: 20px;
+      color: #222;
+    }
+
+    h1 {
+      text-align: center;
+      color: #000000;
+    }
+    p{ text-align: center;
+    color: #000000;}
+
+    h2 {
+      color: #000000;
+      border-bottom: 2px solid #000000;
+      padding-bottom: 4px;
+    }
+
+    p {
+      margin: 6px 0;
+    }
+
+    a {
+      color: #000000;
+    }
+
+    /* Navigation */
+    .navbar {
+      background-color: #000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sections */
+    .section {
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 15px 20px;
+      margin: 15px 0;
+    }
+
+    /* Skills list */
+    ul {
+      margin: 6px 0;
+      padding-left: 20px;
+    }
+
+    /* Academic table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th {
+      background-color: #000000;
+      color: white;
+      padding: 8px;
+      text-align: left;
+    }
+
+    td {
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f0f8ff;
+    }
+
+    /* Social links */
+    .links {
+      margin: 6px 0;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 12px;
+    }
+
+    /* Page link buttons */
+    .page-btns {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .page-btns a {
+      display: inline-block;
+      background-color: #000000;
+      color: white;
+      padding: 10px 24px;
+      margin: 6px;
+      text-decoration: none;
+      border: 2px solid #000000;
+    }
+
+    .page-btns a:hover {
+      background-color: white;
+      color: #000000;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #666;
+      font-size: 14px;
+    }
